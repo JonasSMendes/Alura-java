@@ -1,16 +1,23 @@
-package desafioAppMusica;
+package desafioAppMusica.modelos;
 
 public class Audio {
     private String titulo;
     private double duracao;
-    private int totalDeReprosucao;
+    private int totalDeReproducao;
     private int curtidas;
-    private String classificacao;
+    private int classificacao;
+    private int reproduzindo;
 
-    public void Curtir(){
+    public void curtir(){
         curtidas++;
     }
+    public void reproduzir(){
+        reproduzindo++;
+    }
 
+    public int getReproduzindo() {
+        return reproduzindo;
+    }
 
     public String getTitulo() {
         return titulo;
@@ -28,12 +35,12 @@ public class Audio {
         this.duracao = duracao;
     }
 
-    public int getTotalDeReprosucao() {
-        return totalDeReprosucao;
+    public int getTotalDeReproducao() {
+        return totalDeReproducao;
     }
 
-    public void setTotalDeReprosucao(int totalDeReprosucao) {
-        this.totalDeReprosucao = totalDeReprosucao;
+    public void setTotalDeReproducao(int totalDeReproducao) {
+        this.totalDeReproducao = totalDeReproducao;
     }
 
     public int getCurtidas() {
@@ -41,11 +48,8 @@ public class Audio {
     }
 
 
-    public String getClassificacao() {
+    public int getClassificacao() {
         return classificacao;
     }
 
-    public void setClassificacao(String classificacao) {
-        this.classificacao = classificacao;
-    }
 }

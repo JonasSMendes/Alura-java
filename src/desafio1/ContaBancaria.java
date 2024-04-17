@@ -1,4 +1,4 @@
-package projeto;
+package projeto.contaBancaria;
 
 import java.util.Scanner;
 
