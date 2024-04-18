@@ -1,15 +1,18 @@
-package aula7.modelos;
+package aula7;
 
 
 import aula7.calculo.CalculadoraDeTempo;
 import aula7.calculo.FiltroRecomendacao;
+import aula7.modelos.Episodios;
+import aula7.modelos.Filme;
+import aula7.modelos.Series;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
 
-        Series onePiece = new Series();
-
-        onePiece.setNome("One piece");
+        Series onePiece = new Series("One Piece", 1995);
         onePiece.setTemporadas(1);
         onePiece.setEpisodiosPorTemporada(1090);
         onePiece.setMinutosPorEpisodios(20);
@@ -20,13 +23,24 @@ public class Main {
         System.out.println("duraçao: " + calculadoraDeTempo.getTempoTotal());
 
 //////////////////////////////////////////////////////////////////////////
-        Filme filme1 = new Filme();
-
-        filme1.setNome("Coraline");
-        filme1.avalia(9);
-        filme1.avalia(1);
+        var filme1 = new Filme("coraline",2005);
         filme1.avalia(9);
 
+        var filmeJonas = new Filme("Kill Bill VL1", 2012);
+        filmeJonas.avalia(10);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+
+        listaDeFilmes.add(filmeJonas);
+        listaDeFilmes.add(filme1);
+
+        System.out.println("primeiro filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println("tamanho da lista: " + listaDeFilmes.size());
+        System.out.println(listaDeFilmes);
+
+
+
+///////////////////////////////////////////////////////////////////////////////
         System.out.println("media do filme: " + filme1.pegaMedia());
 
         FiltroRecomendacao filtro = new FiltroRecomendacao();
