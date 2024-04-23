@@ -1,4 +1,6 @@
-package aula7.modelos;
+package aula8.modelos;
+
+import aula8.modelos.exception.ErrorConersaoException;
 
 public class Titulo implements Comparable<Titulo> {
 
@@ -13,6 +15,19 @@ public class Titulo implements Comparable<Titulo> {
         this.nome = nome;
         this.anoDelancamento = anoDelancamento;
     }
+
+    public Titulo(TituloOmdb tituloOmdb){
+        this.nome = tituloOmdb.title();
+
+        if (tituloOmdb.year().length() > 4){
+            throw new ErrorConersaoException("não consegui converter o ano" +
+                    "porque tem mais de 4 caracter");
+        }
+        this.anoDelancamento = Integer.valueOf(tituloOmdb.year());
+        this.duracaoEmHoras = Integer.valueOf(tituloOmdb.runtime());
+
+    }
+
 
     public String getNome() {
         return nome;
