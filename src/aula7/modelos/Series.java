@@ -1,4 +1,4 @@
-package Aula7;
+package aula7.modelos;
 
 public class Series extends Titulo {
 
@@ -6,6 +6,10 @@ public class Series extends Titulo {
     private int episodiosPorTemporada;
     private boolean ativa;
     private int minutosPorEpisodios;
+
+    public Series(String nome, int anoDelancamento) {
+        super(nome, anoDelancamento);
+    }
 
     public int getTemporadas() {
         return temporadas;
@@ -42,5 +46,10 @@ public class Series extends Titulo {
     @Override
     public double getDuracaoEmHoras() {
         return (double) temporadas * episodiosPorTemporada * minutosPorEpisodios / 60 ;
+    }
+
+    @Override
+    public String toString() {
+        return "Serie: " + this.getNome() + " (" + this.getAnoDelancamento() + ")";
     }
 }

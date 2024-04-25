@@ -5,8 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b3867dc-bdb1-407f-9885-b9dd04ab5e20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aula2/ConversorTemperatura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Alura-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula2/CharString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula2/CharString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula2/MediaNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula2/MediaNotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula3/Condicional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula3/Condicional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula3/DiaDaSemana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula3/DiaDaSemana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula3/LeituraDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula3/LeituraDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula4/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula4/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula4/OutroLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula4/OutroLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula5/GameNumeroSecreto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula5/GameNumeroSecreto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula6Ex/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula6Ex/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula6Ex/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula6Ex/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/calculo/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/calculo/CalculadoraDeTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/calculo/Classificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/calculo/Classificavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/calculo/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/calculo/FiltroRecomendacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/modelos/Episodios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/modelos/Episodios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/modelos/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/modelos/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/principal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/principal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula7/principal/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula7/principal/PrincipalComListas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula8/desafios/CriptoMoedasApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula8/desafios/CriptoMoedasApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula8/modelos/Episodios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula8/modelos/Episodios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula8/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula8/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula8/modelos/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula8/modelos/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula8/modelos/Titulo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula8/modelos/Titulo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula8/modelos/TituloOmdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula8/modelos/TituloOmdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula8/modelos/exception/ErrorConersaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula8/modelos/exception/ErrorConersaoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula8/principal/MainApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula8/principal/MainApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio1/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio1/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio2/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio2/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio2/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio2/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio3/classifica/AvaliandoANota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio3/classifica/AvaliandoANota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio3/modelos/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio3/modelos/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio3/modelos/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio3/modelos/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio3/modelos/Podcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio3/modelos/Podcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio3/start/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio3/start/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio4/modelos/Compras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio4/modelos/Compras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio4/modelos/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio4/modelos/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafio4/principal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio4/principal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -36,16 +76,28 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jonas/Documents/java/Alura-java/src/aula8&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConversorTemperatura">
-    <configuration name="ConversorTemperatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula2.ConversorTemperatura" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="aula8.modelos.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonas\Documents\java\Alura-java\src\aula8" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainApi">
+    <configuration name="CriptoMoedasApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula8.desafios.CriptoMoedasApi" />
       <module name="Alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula2.*" />
+          <option name="PATTERN" value="aula8.desafios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Estudos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula1.Estudos" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula7.principal.Main" />
       <module name="Alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula1.*" />
+          <option name="PATTERN" value="aula7.principal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScreemMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula2.ScreemMatch" />
+    <configuration name="MainApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula8.principal.MainApi" />
       <module name="Alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula2.*" />
+          <option name="PATTERN" value="aula8.principal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subtracao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula1.Subtracao" />
+    <configuration name="PrincipalComListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula7.principal.PrincipalComListas" />
       <module name="Alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula1.*" />
+          <option name="PATTERN" value="aula7.principal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="soma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula1.soma" />
+    <configuration name="desafio4.principal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafio4.principal.Main" />
       <module name="Alura-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula1.*" />
+          <option name="PATTERN" value="desafio4.principal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConversorTemperatura" />
-        <item itemvalue="Application.ScreemMatch" />
-        <item itemvalue="Application.Subtracao" />
-        <item itemvalue="Application.soma" />
-        <item itemvalue="Application.Estudos" />
+        <item itemvalue="Application.MainApi" />
+        <item itemvalue="Application.CriptoMoedasApi" />
+        <item itemvalue="Application.desafio4.principal.Main" />
+        <item itemvalue="Application.PrincipalComListas" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

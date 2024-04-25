@@ -1,4 +1,4 @@
-package aula7.modelos;
+package aula8.modelos;
 
 import aula7.calculo.Classificavel;
 

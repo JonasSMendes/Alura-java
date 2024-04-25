@@ -1,13 +1,21 @@
-package Aula7;
+package aula7.modelos;
 
-public class Titulo {
+import aula8.modelos.TituloOmdb;
+import com.google.gson.annotations.SerializedName;
 
+public class Titulo implements Comparable<Titulo> {
     private String nome;
     private int anoDelancamento;
     private boolean incluidoNoPlano;
-    private double somaDeAvalicoes;
-    private int totalDeAvalicoes;
+    private double somaDasNotas;
+    private int quantasNotasAdicionadas;
+
     private int duracaoEmHoras;
+
+    public Titulo(String nome, int anoDelancamento) {
+        this.nome = nome;
+        this.anoDelancamento = anoDelancamento;
+    }
 
     public String getNome() {
         return nome;
@@ -33,21 +41,44 @@ public class Titulo {
         this.incluidoNoPlano = incluidoNoPlano;
     }
 
-    public double getSomaDeAvalicoes() {
-        return somaDeAvalicoes;
+    public double getSomaDasNotas() {
+        return somaDasNotas;
     }
 
-    public int getTotalDeAvalicoes() {
-        return totalDeAvalicoes;
+    public void setSomaDasNotas(double somaDasNotas) {
+        this.somaDasNotas = somaDasNotas;
     }
 
-    public void setTotalDeAvalicoes(int totalDeAvalicoes) {
-        this.totalDeAvalicoes = totalDeAvalicoes;
+    public int getQuantasNotas() {
+        return quantasNotasAdicionadas;
+    }
+
+    public void setQuantasNotas(int quantasNotas) {
+        this.quantasNotasAdicionadas = quantasNotas;
     }
 
     public double getDuracaoEmHoras() {
         return duracaoEmHoras;
     }
 
+    public void avalia(int nota){
+        somaDasNotas += nota;
+        quantasNotasAdicionadas++;
+    }
 
+    public int pegaMedia(){
+        return (int) somaDasNotas / quantasNotasAdicionadas;
+    }
+
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
+    }
+
+    @Override
+    public String toString() {
+        return "nome= '" + nome + '\'' +
+                ", anoDelancamento= " + anoDelancamento + ","
+                + "duração= " + duracaoEmHoras + "min";
+    }
 }

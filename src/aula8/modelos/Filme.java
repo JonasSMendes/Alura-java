@@ -1,13 +1,13 @@
-package aula7.modelos;
+package aula8.modelos;
 
 import aula7.calculo.Classificavel;
 
-public class Filme extends Titulo implements Classificavel {
+public class Filme extends Titulo2 implements Classificavel {
 
     private String diretor;
 
-    public Filme(String nome, int anoDelancamento) {
-        super(nome, anoDelancamento);
+    public Filme(String nome, int anoDelancamento, int duracaoEmHoras) {
+        super(nome, anoDelancamento, duracaoEmHoras);
     }
 
 

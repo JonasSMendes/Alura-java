@@ -1,4 +1,4 @@
-package aula7;
+package aula7.principal;
 
 
 import aula7.calculo.CalculadoraDeTempo;

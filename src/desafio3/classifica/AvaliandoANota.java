@@ -1,6 +1,6 @@
-package desafioAppMusica.classifica;
+package desafio3.classifica;
 
-import desafioAppMusica.modelos.Audio;
+import desafio3.modelos.Audio;
 
 public class AvaliandoANota {
     

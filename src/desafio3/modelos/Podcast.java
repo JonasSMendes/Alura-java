@@ -1,4 +1,4 @@
-package desafioAppMusica.modelos;
+package desafio3.modelos;
 
 public class Podcast extends Audio{
     private String programa;

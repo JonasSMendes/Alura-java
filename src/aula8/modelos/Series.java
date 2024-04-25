@@ -1,14 +1,14 @@
-package aula7.modelos;
+package aula8.modelos;
 
-public class Series extends Titulo {
+public class Series extends Titulo2 {
 
     private int temporadas;
     private int episodiosPorTemporada;
     private boolean ativa;
     private int minutosPorEpisodios;
 
-    public Series(String nome, int anoDelancamento) {
-        super(nome, anoDelancamento);
+    public Series(String nome, int anoDelancamento, int duracaoEmHoras) {
+        super(nome, anoDelancamento,duracaoEmHoras);
     }
 
     public int getTemporadas() {
@@ -44,8 +44,8 @@ public class Series extends Titulo {
     }
 
     @Override
-    public double getDuracaoEmHoras() {
-        return (double) temporadas * episodiosPorTemporada * minutosPorEpisodios / 60 ;
+    public int getDuracaoEmHoras() {
+        return (int) temporadas * episodiosPorTemporada * minutosPorEpisodios / 60 ;
     }
 
     @Override

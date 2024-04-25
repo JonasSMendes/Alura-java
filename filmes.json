@@ -1,0 +1,26 @@
+[
+  {
+    "Nome": "Matrix",
+    "AnoDelancamento": 1993,
+    "IncluidoNoPlano": false,
+    "SomaDasNotas": 0.0,
+    "QuantasNotasAdicionadas": 0,
+    "DuracaoEmHoras": 60
+  },
+  {
+    "Nome": "Top Gun",
+    "AnoDelancamento": 1986,
+    "IncluidoNoPlano": false,
+    "SomaDasNotas": 0.0,
+    "QuantasNotasAdicionadas": 0,
+    "DuracaoEmHoras": 10
+  },
+  {
+    "Nome": "Coraline",
+    "AnoDelancamento": 2009,
+    "IncluidoNoPlano": false,
+    "SomaDasNotas": 0.0,
+    "QuantasNotasAdicionadas": 0,
+    "DuracaoEmHoras": 10
+  }
+]

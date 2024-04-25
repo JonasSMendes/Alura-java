@@ -1,2 +1,5 @@
-package Aula7.calculo;public class Classificavel {
+package aula7.calculo;
+
+public interface Classificavel {
+    int getClassificacao();
 }

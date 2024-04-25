@@ -1,8 +1,8 @@
-package desafioAppMusica.start;
+package desafio3.start;
 
-import desafioAppMusica.classifica.AvaliandoANota;
-import desafioAppMusica.modelos.Musica;
-import desafioAppMusica.modelos.Podcast;
+import desafio3.classifica.AvaliandoANota;
+import desafio3.modelos.Musica;
+import desafio3.modelos.Podcast;
 
 public class main {
     public static void main(String[] args) {

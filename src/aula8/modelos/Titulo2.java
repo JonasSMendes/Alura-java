@@ -2,7 +2,7 @@ package aula8.modelos;
 
 import aula8.modelos.exception.ErrorConersaoException;
 
-public class Titulo implements Comparable<Titulo> {
+public class Titulo2 implements Comparable<Titulo2> {
 
     private String nome;
     private int anoDelancamento;
@@ -11,20 +11,22 @@ public class Titulo implements Comparable<Titulo> {
     private int quantasNotasAdicionadas;
     private int duracaoEmHoras;
 
-    public Titulo(String nome, int anoDelancamento) {
+    public Titulo2(String nome, int anoDelancamento, int duracaoEmHora) {
         this.nome = nome;
         this.anoDelancamento = anoDelancamento;
+        this.duracaoEmHoras = duracaoEmHora;
     }
 
-    public Titulo(TituloOmdb tituloOmdb){
+    public Titulo2(TituloOmdb tituloOmdb){
         this.nome = tituloOmdb.title();
 
         if (tituloOmdb.year().length() > 4){
-            throw new ErrorConersaoException("não consegui converter o ano" +
+            throw new ErrorConersaoException("não consegui converter o ano " +
                     "porque tem mais de 4 caracter");
         }
+
         this.anoDelancamento = Integer.valueOf(tituloOmdb.year());
-        this.duracaoEmHoras = Integer.valueOf(tituloOmdb.runtime());
+        this.duracaoEmHoras = Integer.valueOf(tituloOmdb.runtime().substring(0,2));
 
     }
 
@@ -69,7 +71,7 @@ public class Titulo implements Comparable<Titulo> {
         this.quantasNotasAdicionadas = quantasNotas;
     }
 
-    public double getDuracaoEmHoras() {
+    public int getDuracaoEmHoras() {
         return duracaoEmHoras;
     }
 
@@ -83,7 +85,14 @@ public class Titulo implements Comparable<Titulo> {
     }
 
     @Override
-    public int compareTo(Titulo outroTitulo) {
-        return this.getNome().compareTo(outroTitulo.getNome());
+    public int compareTo(Titulo2 outroTitulo2) {
+        return this.getNome().compareTo(outroTitulo2.getNome());
+    }
+
+    @Override
+    public String toString() {
+        return """
+                ( objeto:   titulo = %s ano = %s tempo do filme = %s )
+                """.formatted(nome, anoDelancamento, duracaoEmHoras);
     }
 }
